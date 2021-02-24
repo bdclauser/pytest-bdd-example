@@ -8,6 +8,7 @@
     "other": true,
     "comments": false
 },
+"cucumberautocomplete.syncfeatures": "test/features/*.feature",
 "python.testing.pytestArgs": [
     "test"
 ],
