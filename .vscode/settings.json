@@ -4,16 +4,16 @@
         "test/features/step_defs/*.py"
     ],
     "cucumberautocomplete.strictGherkinCompletion": true,
-    "editor.quickSuggestions": {"strings": true,
-    "other": true,
-    "comments": false
-},
-"cucumberautocomplete.syncfeatures": "test/features/*.feature",
-"python.testing.pytestArgs": [
-    "test"
-],
-"python.testing.unittestEnabled": false,
-"python.testing.nosetestsEnabled": false,
-"python.testing.pytestEnabled": true,
-
+    "editor.quickSuggestions": {
+        "strings": true,
+        "other": true,
+        "comments": false
+    },
+    "cucumberautocomplete.syncfeatures": "test/features/*.feature",
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
 }

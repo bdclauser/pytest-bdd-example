@@ -2,7 +2,7 @@ from pytest_bdd import scenario, given, when, then, parsers
 
 from cucumbers import CucumberBasket
 
-@scenario('../test/features/cucumbers.feature', 'Add cucumbers to a basket')
+@scenario('test/features/cucumbers.feature', 'Add cucumbers to a basket')
 def test_add():
     pass
 
