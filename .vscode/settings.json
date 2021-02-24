@@ -4,4 +4,7 @@
         "tests/features/step_defs/*.js"
     ],
     "cucumberautocomplete.strictGherkinCompletion": true,
+    "editor.quickSuggestions": {"strings": true,
+    "other": true,
+    "comments": false}, 
 }
