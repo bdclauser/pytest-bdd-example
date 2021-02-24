@@ -6,5 +6,13 @@
     "cucumberautocomplete.strictGherkinCompletion": true,
     "editor.quickSuggestions": {"strings": true,
     "other": true,
-    "comments": false}, 
+    "comments": false
+},
+"python.testing.pytestArgs": [
+    "test"
+],
+"python.testing.unittestEnabled": false,
+"python.testing.nosetestsEnabled": false,
+"python.testing.pytestEnabled": true,
+
 }

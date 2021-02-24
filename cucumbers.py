@@ -6,17 +6,19 @@
     You must now include a "fixture_target" parameter with the namve of the method in order for other steps to use it as a fixture.
     """
 
+
 class CucumberBasket:
+
     def __init__(self, initial_count=0, max_count=10):
         if initial_count < 0:
-            raise ValueError("Initial cucumber basket count must not be negative")
+            raise ValueError(
+                "Initial cucumber basket count must not be negative")
         if max_count < 0:
             raise ValueError("Max cucumber basket count must not be negative")
 
         self._count = initial_count
         self._max_count = max_count
 
-    
     @property
     def count(self):
         return self._count
@@ -36,7 +38,7 @@ class CucumberBasket:
     def add(self, count=1):
         new_count = self.count + count
         if new_count > self.max_count:
-            raise ValueeError("Attempted to add too many cucumbers")
+            raise ValueError("Attempted to add too many cucumbers")
         self._count = new_count
 
     def remove(self, count=1):
