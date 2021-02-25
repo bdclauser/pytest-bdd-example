@@ -1,8 +1,8 @@
 {
     "python.pythonPath": "venv/bin/python3",
-    "cucumberautocomplete.steps": [
-       "./tests/features/step_defs/*.py"
-    ],
+/*     "cucumberautocomplete.steps": [
+       "/tests/features/step_defs/*.py"
+    ], */
     "cucumberautocomplete.strictGherkinCompletion": true,
     "editor.quickSuggestions": {
         "strings": true,
