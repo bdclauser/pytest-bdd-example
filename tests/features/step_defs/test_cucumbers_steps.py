@@ -3,7 +3,7 @@ from pytest_bdd import scenarios, parsers, given, when, then
 from cucumbers import CucumberBasket
 
 
-scenarios('tests/features/cucumbers.feature')
+scenarios('./tests/features/cucumbers.feature')
 
 
 EXTRA_TYPES = {

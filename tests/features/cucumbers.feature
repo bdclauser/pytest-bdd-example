@@ -14,4 +14,3 @@ Feature: Cucumber Basket
         Given the basket has "8" cucumbers
         When "3" cucumbers are removed from the basket
         Then the basket contains "5" cucumbers
-        
