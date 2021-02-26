@@ -6,4 +6,9 @@
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
+    "cucumberautocomplete.steps": [
+        "tests/features/step_defs/*.py"
+    ],
+    //"cucumberautocomplete.syncfeatures": "tests/features/*.feature",
+    "cucumberautocomplete.syncfeatures": true,
 }

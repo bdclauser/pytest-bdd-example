@@ -11,8 +11,7 @@ class CucumberBasket:
 
     def __init__(self, initial_count=0, max_count=10):
         if initial_count < 0:
-            raise ValueError(
-                "Initial cucumber basket count must not be negative")
+            raise ValueError("Initial cucumber basket count must not be negative")
         if max_count < 0:
             raise ValueError("Max cucumber basket count must not be negative")
 
