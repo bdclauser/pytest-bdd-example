@@ -25,6 +25,10 @@ def add_cucumbers(basket, some):
 def remove_cucumbers(basket, some):
     basket.remove(some)
 
+@when(parsers.cfparse("empty {all:number} cucumbers from basket", extra_types=EXTRA_TYPES))
+def empty_cucumbers(basket, all):
+    basket.empty(all)
+
 
 @then(parsers.cfparse("the basket contains {total:Number} cucumbers", extra_types=EXTRA_TYPES))
 def basket_has_total(basket, total):

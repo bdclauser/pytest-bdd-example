@@ -1,15 +1,5 @@
 {
     "python.pythonPath": "venv/bin/python3",
-/*     "cucumberautocomplete.steps": [
-       "tests/features/step_defs/*.py"
-    ], */
-    "cucumberautocomplete.strictGherkinCompletion": true,
-    "editor.quickSuggestions": {
-        "strings": true,
-        "other": true,
-        "comments": false
-    },
-    "cucumberautocomplete.gherkinDefinitionPart": "@(Given|When|Then|Step)\\(u?",
     "python.testing.pytestArgs": [
         "test"
     ],
